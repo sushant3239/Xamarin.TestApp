@@ -1,0 +1,4 @@
+D:\Data\Windows10\Xamarin.Samples\TestApp\AppName.Core\AppName.Core.csproj;neutral
+D:\Data\Windows10\Xamarin.Samples\TestApp\AppName.Core\AppName.Core.csproj;neutral
+D:\Data\Windows10\Xamarin.Samples\TestApp\TestApp.UWP\TestApp.UWP.csproj;x86
+D:\Data\Windows10\Xamarin.Samples\TestApp\TestApp\TestApp\TestApp.csproj;neutral

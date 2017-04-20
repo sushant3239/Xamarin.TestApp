@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:TestApp"
+             x:Class="TestApp.MainPage">
+    
+    <ContentPage Title="Test">
+        <StackLayout>
+            <Label Text="{Binding Location.Latitude}" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+            <Button Command="{Binding NavigationToSecondPageCommand}" Text="Navigate"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Test 1">
+        <StackLayout>
+            <Label Text="{Binding Location.Latitude}" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+            <Button Command="{Binding NavigationToSecondPageCommand}" Text="Navigate"/>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Test 2">
+        <StackLayout>
+            <Label Text="{Binding Location.Latitude}" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" />
+            <Button Command="{Binding NavigationToSecondPageCommand}" Text="Navigate"/>
+        </StackLayout>
+    </ContentPage>
+
+
+</TabbedPage>
